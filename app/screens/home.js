@@ -1,12 +1,30 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, FlatList, SafeAreaView } from "react-native";
+
+import Book from "./book";
+import bookData from "../bookData.json";
+import { StatusBar } from "expo-status-bar";
 
 export default function Home() {
+  const renderItem = ({ item }) => {
+    return (
+      <Book
+        id={item.id}
+        title={item.title}
+        author={item.author}
+        thumbnail={item.thumbnail}
+      />
+    );
+  };
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bookcase</Text>
       <StatusBar style="auto" />
+      <FlatList
+        data={bookData}
+        renderItem={renderItem}
+        keyExtractor={(item) => item.id}
+      />
     </View>
   );
 }
@@ -15,12 +33,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  title: {
-    fontSize: 20,
-    textAlign: "center",
-    // margin: 10,
+    paddingTop: 40,
   },
 });

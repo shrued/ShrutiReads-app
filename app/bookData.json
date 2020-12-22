@@ -1,20 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Harry Potter and the Goblet of Fire",
-    "author": "J. K. Rowling",
-    "thumbnail": "https://covers.openlibrary.org/w/id/7984916-M.jpg"
+    "title": "Sharp Objects",
+    "author": "Gillian Flynn",
+    "thumbnail": "https://covers.openlibrary.org/b/id/9001558-M.jpg"
   },
   {
     "id": 2,
-    "title": "The Hobbit",
-    "author": "J. R. R. Tolkien",
-    "thumbnail": "https://covers.openlibrary.org/w/id/6979861-M.jpg"
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "thumbnail": "https://covers.openlibrary.org/b/id/8295315-M.jpg"
   },
   {
     "id": 3,
-    "title": "1984",
-    "author": "George Orwell",
-    "thumbnail": "https://covers.openlibrary.org/w/id/7222246-M.jpg"
+    "title": "Stalker",
+    "author": "Lars Kepler",
+    "thumbnail": "https://covers.openlibrary.org/b/id/10133294-M.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Final Girls",
+    "author": "Riley Sager",
+    "thumbnail": "https://covers.openlibrary.org/b/id/8807201-M.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "J. K. Rowling",
+    "thumbnail": "https://covers.openlibrary.org/b/id/10523466-M.jpg"
+  },
+  {
+    "id": 6,
+    "title": "The Shining",
+    "author": "Stephen King",
+    "thumbnail": "https://covers.openlibrary.org/b/id/7261834-M.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Woman in the Window",
+    "author": "A. J. Finn",
+    "thumbnail": "https://covers.openlibrary.org/b/id/9237722-M.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "thumbnail": "https://covers.openlibrary.org/b/id/8669245-M.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "thumbnail": "https://covers.openlibrary.org/b/id/9407338-M.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Skulduggery Pleasant: Death Bringer",
+    "author": "Derek Landy",
+    "thumbnail": "https://covers.openlibrary.org/b/id/8786640-M.jpg"
   }
 ]
